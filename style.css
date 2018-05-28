@@ -1,0 +1,41 @@
+body {
+font-family: 'Open Sans', sans-serif;
+margin: 20px 0 0 20px;
+}
+
+h1, h2{
+color: #d2a668;
+}
+
+.current{
+width: 500px;
+border: 1px solid black;
+padding: 2px;
+margin: 10px 0;
+}
+
+ul{
+padding: 0;
+list-style-type: none;
+}
+
+li:nth-child(odd){
+width: 500px;
+background-color: eee;
+padding: 0px 2px;
+height: 80px;
+line-height:80px;
+}
+li:nth-child(even){
+width: 500px;
+background-color: fff;
+padding: 0px 2px;
+height: 80px;
+line-height:80px;
+}
+.paper{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
